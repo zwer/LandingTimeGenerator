@@ -3,10 +3,10 @@
 	font-family: 'MyriadProRegular';
 	font-style: normal;
 	font-weight: normal;
-	src: url('../c/4/myriadpro-regular-webfont.eot?') format('eot'),
-		url('../c/4/myriadpro-regular-webfont.woff') format('woff'),
-		url('../c/4/myriadpro-regular-webfont.ttf') format('truetype'),
-		url('../c/4/myriadpro-regular-webfont.svg#webfontZPnuZIZf') format('svg');
+	src: url('myriadpro-regular-webfont.eot') format('eot'),
+		url('myriadpro-regular-webfont.woff') format('woff'),
+		url('myriadpro-regular-webfont.ttf') format('truetype'),
+		url('myriadpro-regular-webfont.svg') format('svg');
 }
 #countbox
 {
@@ -29,9 +29,16 @@
 	height: 90px;
 	width: 8px;
 }
-#countbox-days1,#countbox-hours1,#countbox-mins1,#countbox-secs1,#countbox-days2,#countbox-hours2,#countbox-mins2,#countbox-secs2
+#countbox-days1,
+#countbox-hours1,
+#countbox-mins1,
+#countbox-secs1,
+#countbox-days2,
+#countbox-hours2,
+#countbox-mins2,
+#countbox-secs2
 {
-	background-image: url('../c/4/flip.png');
+	background-image: url('/flip.png');
 	background-repeat: no-repeat;
 	float: left;
 	height: 89px;
@@ -51,23 +58,30 @@
 }
 #countbox-days-text
 {
-	background-image: url('../c/4/days_text.gif');
+	background-image: url('/days_text.gif');
 }
 #countbox-hours-text
 {
-	background-image: url('../c/4/hours_text.gif');
+	background-image: url('/hours_text.gif');
 }
 #countbox-mins-text
 {
-	background-image: url('../c/4/mins_text.gif');
+	background-image: url('/mins_text.gif');
 }
 #countbox-secs-text
 {
-	background-image: url('../c/4/secs_text.gif');
+	background-image: url('/secs_text.gif');
 }
-#countbox-days1 span, #countbox-days2 span, #countbox-hours1 span, #countbox-hours2 span, #countbox-mins1 span, #countbox-mins2 span, #countbox-secs1 span, #countbox-secs2 span
+#countbox-days1 span, 
+#countbox-days2 span, 
+#countbox-hours1 span, 
+#countbox-hours2 span, 
+#countbox-mins1 span, 
+#countbox-mins2 span, 
+#countbox-secs1 span, 
+#countbox-secs2 span
 {
-	background: url('../c/4/flip_gradient.png');
+	background: url('/flip_gradient.png');
 	background-repeat: no-repeat;
 	display: block;
 	height: 89px;
